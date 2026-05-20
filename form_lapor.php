@@ -35,7 +35,7 @@
 									<i class="bi bi-person-fill text-primary"></i>
 									Nama
 								</label>
-								<input type="text" name="nama" class="form-control" rows="5" placeholder="Masukkan Nama">
+								<input type="text" name="nama" class="form-control" rows="5" placeholder="Masukkan Nama" required>
 							</div>
 
 							<div class="mb-4">
@@ -43,7 +43,7 @@
 									<i class="bi bi-chat-left-text-fill text-primary"></i>
 									Isi Laporan
 								</label>
-								<textarea name="laporan" class="form-control" rows="5" placeholder="Masukkan Laporan..."></textarea>
+								<textarea name="laporan" class="form-control" rows="5" placeholder="Masukkan Laporan..." required></textarea>
 							</div>
 
 							<div class="mb-4">
@@ -51,7 +51,7 @@
 									<i class="bi bi-image-fill text-primary"></i>
 									Upload Bukti
 								</label>
-								<input type="file" name="foto" class="form-control">
+								<input type="file" name="foto" class="form-control" required>
 							</div>
 
 							<button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
