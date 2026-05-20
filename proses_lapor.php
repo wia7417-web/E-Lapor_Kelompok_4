@@ -29,10 +29,12 @@
 
 							$nama    = $_POST['nama'];
 							$laporan = $_POST['laporan'];
-							$tmpName = $_FILES['foto']['tmp_name'];
+							if ($_FILES['foto']['error'] == 0) {
+								$tmpName = $_FILES['foto']['tmp_name'];
 
-							$data = base64_encode(file_get_contents($tmpName));
-							$tipe = mime_content_type($tmpName);
+								$data = base64_encode(file_get_contents($tmpName));
+								$tipe = mime_content_type($tmpName);
+							}
 							echo "
 							<div class='text-center mb-4'>
 								<i class='bi bi-check-circle-fill text-success' style='font-size: 70px;'></i>
