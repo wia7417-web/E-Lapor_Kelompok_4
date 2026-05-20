@@ -55,11 +55,11 @@
 							</div>
 
 							<div class="d-flex gap-2">
-								<a href="index.php" class="btn btn-danger w-50 py-2 fw-semibold">
+								<a href="index.php" class="btn btn-danger py-2 flex-fill fw-semibold">
 									<i class="bi bi-x-circle-fill"></i>
 									Batal
 								</a>
-								<button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
+								<button type="submit" class="btn btn-primary py-2 flex-fill fw-semibold">
 									<i class="bi bi-send-fill"></i>
 									Kirim
 								</button>
