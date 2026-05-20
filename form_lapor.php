@@ -51,7 +51,7 @@
 									<i class="bi bi-image-fill text-primary"></i>
 									Upload Bukti
 								</label>
-								<input type="file" name="foto" class="form-control" required>
+								<input type="file" name="foto" class="form-control" accept="image/*" required>
 							</div>
 
 							<div class="d-flex gap-2">
