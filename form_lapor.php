@@ -29,21 +29,22 @@
 								Form Laporan
 							</h2>
 						</div>
-						<form action="proses_lapor.php" method="POST" enctype="multipart/form-data" novalidate>
+						<form action="proses_simpan.php" method="POST" enctype="multipart/form-data" novalidate>
 							<div class="mb-4">
-								<label class="form-label fw-semibold">
+								<label for="nama_pelapor" class="form-label fw-semibold">
 									<i class="bi bi-person-fill text-primary"></i>
-									Nama
+									Nama Pelapor
 								</label>
-								<input type="text" name="nama" class="form-control" rows="5" placeholder="Masukkan Nama" required>
+								<br>
+								<input type="text" name="nama_pelapor" class="form-control" placeholder="Masukkan Nama Anda" required>
 							</div>
 
 							<div class="mb-4">
-								<label class="form-label fw-semibold">
+								<label for="isi_laporan" class="form-label fw-semibold">
 									<i class="bi bi-chat-left-text-fill text-primary"></i>
 									Isi Laporan
 								</label>
-								<textarea name="laporan" class="form-control" rows="5" placeholder="Masukkan Laporan..." required></textarea>
+								<textarea name="isi_laporan" class="form-control" rows="5" placeholder="Tuliskan Laporan..." required></textarea>
 							</div>
 
 							<div class="mb-4">
