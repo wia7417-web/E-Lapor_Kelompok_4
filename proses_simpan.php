@@ -8,7 +8,12 @@ $query = "INSERT INTO laporan
 (nama_pelapor, isi_laporan, status) VALUES ('$nama', '$laporan', 'Menunggu')";
 
 if (mysqli_query($koneksi, $query)) {
-    echo "Terima kasih. Laporan berhasil disimpan ke database!";
+    echo "
+	<script>
+		alert('Terima kasih. Laporan Anda berhasil dikirim.');
+		window.location='index.php';
+	</script>
+	";
 } else {
     echo "Terjadi kesalahan : " . mysqli_error($koneksi);
 }
